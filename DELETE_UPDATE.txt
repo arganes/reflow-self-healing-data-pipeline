@@ -1,0 +1,22 @@
+DATASET DELETE UPDATE — 5 October 2026
+
+Stop ReFlow with Ctrl+C. Back up your project folder first.
+Copy the supplied application files into your existing reflow_business folder.
+Keep your existing data folder and .env file; neither is included here.
+Start: python app.py
+Refresh the browser using Ctrl+F5.
+
+Customer: Datasets > Upload history > Delete dataset.
+Admin: Datasets > Upload history > Delete dataset, or
+AI & Self-Healing > Pipeline run history > Delete source dataset.
+Both roles can also delete from the dataset profile.
+
+Read the affected-record counts, then type DELETE to confirm.
+Cancellation makes no changes. Deletion permanently removes the selected
+source and its derived datasets, linked reports, growth plans and pipeline
+runs. Published reports in this group disappear from the customer dashboard.
+Other unrelated datasets and business accounts are kept.
+Customers can delete only their own business data. Admins can delete any
+business dataset. A source delete can remove multiple pipeline runs.
+
+Tested with isolated test accounts and sample data; no real data deleted.

@@ -1,0 +1,22 @@
+# API keys and secrets
+.env
+.env.*
+!.env.example
+
+# Local business and customer data
+data/
+uploads/
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Editor settings
+.vscode/
+.idea/

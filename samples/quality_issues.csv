@@ -1,0 +1,6 @@
+order_id,revenue,total_cost,category,date
+001,1000,700, Retail ,15/01/2026
+002, 2500 ,1900,Services,16/01/2026
+003,,300,Retail,17/01/2026
+004,invalid,400,Retail,invalid-date
+001,1000,700, Retail ,15/01/2026
